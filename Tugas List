@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Tugas List</title>
+		<link rel="stylesheet" type="text/css" href="list.css">
+	</head>
+	<body>
+		<div class="header">
+			Warung Bangunan
+		</div>
+		<div class="content" style="background-image: url('images/bg1.jpg');">
+				<ul>
+			<li>Sate Ayam</li>
+			<li>Sate Kelinci</li>
+			<li>Sate kambing</li>
+		</ul>
+		<ol>
+			<li>Es Teh</li>
+			<li>Es Jeruk</li>
+			<li>Es Cao</li>
+		</ol>
+		</div>
+	</body>
+</html>
+
+
+body
+
+.header { width:100%;
+		  height:40px;
+		  font-size:26px;
+		  font-family:arial;
+		  text-align:center;
+}
+.content{ font-size:16px;
+		  font-family:calibri;
+}	
+	
+ul 		{ background:red;
+		  padding:20px;
+}
+ul li	{ background:salmon;
+}
+ol		{ background:blue;
+		  padding:15px;
+} 
+ol li	{ background:skyblue;
+		  margin:5px;
+}
+
