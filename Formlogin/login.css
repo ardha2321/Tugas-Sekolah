@@ -1,0 +1,101 @@
+body 	{
+            background-image: url("images/bg1.jpg");
+			background-color: #f9f9f9;
+        }
+        .demo-wrapper {
+            width: auto;
+            margin: -25px auto;
+        }
+        .demo-wrapper .title {
+            font-size: 30px;
+            font-family: "arial";
+            letter-spacing: -3px;
+            padding: 2px;
+            margin: 10px;
+            line-height: 0px;
+        }
+        .demo-wrapper section {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .demo-wrapper .without-blending-mode span {
+             opacity: 0.8;
+        }
+        .demo-wrapper .with-blending-mode span {
+             mix-blend-mode: multiply;
+        }
+        .demo-wrapper span:first-child {
+            color: #4285f4;
+            position: relative;
+            z-index: 100;
+        }
+        .demo-wrapper span:nth-child(2) {
+            color: #db4437;
+        }
+        .demo-wrapper span:nth-child(3) {
+            color: #f4b400;
+        }
+        .demo-wrapper span:nth-child(4) {
+            color: #4285f4;
+            position: relative;
+            z-index: 100;
+        }
+        .demo-wrapper span:nth-child(5) {
+            color: #0f9d58; 
+        }
+        .demo-wrapper span:nth-child(6) {
+            color: #db4437;
+        }  
+
+#card {
+	background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;	
+	
+}
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;	
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=password], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;	
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit] {
+	width: 100%;
+	background-color: #4285F4;
+	color: #fff;
+	padding: 10px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 1px 5px #666;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: #666;
+	transition: background 1s;
+}
+div {
+	padding: 20px;
+}
+h2 {
+	font-size: 20px;
+	font-family: sans-serif;
+}
+form {
+	font-family: arial;
+}
